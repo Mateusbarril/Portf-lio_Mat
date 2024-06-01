@@ -1,0 +1,524 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:  rgb(140, 63, 192);
+    margin: 0;
+    padding: 0;
+}
+
+.Hab{
+    text-align: center;
+}
+.hover-element svg{
+    width: 255px;
+    height: 202px;
+    border-radius: 20px;
+    background-color: #30003bc7;
+    padding: 23px 36px 23px 36px ;
+}
+
+span{
+    color: rgb(255, 255, 255);;
+}
+
+.block{
+    gap: 40px;
+}
+
+div#div-1{
+    background-color: #ffffff;
+    margin-top: 0px;
+    margin-bottom: 35px;
+    box-shadow: 2px 3px 7px 1px rgba(0, 0, 0, 0.452);
+    padding: 15px;
+}
+
+div#div-2{
+    background-color: #ffffff;
+    margin-top: 60px;
+    margin-bottom: 120px;
+    box-shadow: 2px 3px 7px 1px rgba(0, 0, 0, 0.452);
+    padding: 15px;
+}
+
+div#div-3{
+    background-color: #ffffff;
+    margin-top: 100px;
+    margin-bottom: 120px;
+    box-shadow: 2px 3px 7px 1px rgba(0, 0, 0, 0.452);
+    padding: 15px;
+}
+
+nav{
+    border-bottom: solid white 1px;
+    box-shadow:2px 3px 7px 1px rgba(0, 0, 0, 0.425);
+    position: absolute;
+    flex: absolute;
+    width: 100%;
+    top: 0;
+}
+
+.container{
+    margin-top: 0%;
+    box-shadow: 1px 1px 4px, color(blue);
+    height: 5em;
+    background-color: #6b5435;
+    justify-content: space-between;
+    padding: 0 8%;
+}
+
+.botao{
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+
+div#txt-topo1 h5{
+    font-size: 33px;
+    line-height: 0px;
+}
+
+div#txt-topo1 h1{
+    font-family: 'LVDC Common Pix2', sans-serif;     
+    font-size: 55px;
+    line-height: 60px;                             
+}
+
+div#txt-topo1 p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    line-height: 0px;
+}
+
+div#txt-topo1{
+    color: white;
+}
+
+div#txt-topo2{
+    color: white;
+    justify-content: space-around;
+    text-align: center;
+}
+
+div#txt-topo2 h1{
+    font-family: 'LVDC Common Pix2', sans-serif;
+    font-size: 72px;
+}
+
+div#txt-topo2 p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+}
+
+div#txt-topo3{
+    color: white;
+}
+
+div#txt-topo3 h1{
+    font-family: 'LVDC Common Pix2', sans-serif;
+    font-size: 72px;
+}
+
+.txt-topo4 h1{
+    font-family: 'LVDC Common Pix2', sans-serif;
+    font-size: 72px;
+    color: white;
+    text-align: center;
+}
+.interface{
+    background: linear-gradient(48deg, rgb(140, 63, 192) 68%, #3c095e 30%);
+    padding: 97px;
+}
+
+.interface-2{
+    padding: 50px 15%;
+}
+
+.flex{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.interface .flex{
+    padding: 40px 4%;
+    align-items: center;
+    justify-content: center;
+}
+
+.interface img{
+    position: relative;
+    animation: float 2s ease-in-out infinite alternate;
+}
+
+a.contato button{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 30px 80px 30px 80px;
+    background-color: #4d0170;
+    font-size: 20px;
+    border: 0;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+a.contato button:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.interface-3{
+    text-align: center;
+    line-height: 10px;
+}
+
+.interface-4 h1{
+    color: white;
+    text-align: center;
+}
+
+
+
+.box{
+    background-color: rgba(0, 0, 0, 0.658);
+    color: white;
+    border: solid 2px white;
+    border-radius: 24px;
+    padding: 200px 110px 200px 110px;
+    text-align: center;
+    font-size: 25px;
+    margin: auto;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-top: 50px;
+}
+
+
+.flex-2{
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+}
+p.rote{
+    display: inline-block;
+    transform: rotate(323deg);
+    border-bottom: white;
+    border-color: black;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 30px;
+}
+
+.box:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+div#box-1{
+    border-radius: 24px;
+    padding: 100px 120px 100px 120px;
+    text-align: center;
+    font-size: 25px;
+    margin: auto;
+    cursor: pointer;
+    transition: 0.5s;
+    display: none;
+}
+
+.block{
+    display: inline-block;
+    position: relative;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.block p{
+    color: white;
+    font-size: 30px;
+    font-family: American Typewriter, serif;
+}
+
+.hover-element {
+    padding: 10px;
+    margin: 5px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#displayText {
+    margin-top: 140px;
+    margin-bottom: 160px;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+.block img:hover{
+    background-color: rgb(255, 166, 0);
+}
+
+.block p.texto{
+    visibility: hidden;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 30%; /* Posiciona acima do texto */
+    left: 45%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.block:hover p.texto{
+    visibility: visible;
+    opacity: 1;
+}
+
+div#box-1:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+
+@media screen and (max-width: 878px){
+
+    .botao{
+        display: block;
+    }
+    .navigation{
+        position: absolute;
+        top: 0;
+        background-color: #855b25;
+        height: 100%;
+        width: 45vw;
+        height: 75vw;
+        animation-duration: 0.5s;
+        margin-left: -100vw;
+        z-index: 2;
+        margin: 0;
+    }
+
+    .navigation a{
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+        display: block;
+        padding: 20px;
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    .flex{
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    div#txt-topo1 h1{
+        line-height: 80px;
+    }
+
+    div#txt-topo1{
+        text-align: center;
+        margin: 0;
+    }
+
+}
+
+@media screen and (max-width:1229px){
+    div#txt-topo1 h1{
+        line-height: 65px;
+        font-size: 50px;
+    }
+
+    a.contato button{
+        padding: 30px 120px 30px 120px;
+    }
+    
+}
+
+@media screen and (max-width:1154px){
+    div.box{
+        padding: 70px 80px 70px 80px;
+    }
+
+    div#txt-topo2 h1{
+        font-size: 40px;
+    }
+
+    div#txt-topo3 h1{
+        font-size: 40px;
+    }
+    div#box-1{
+        padding: 70px 80px 70px 80px;
+    }
+
+    div.txt-topo4 h1{
+        font-size: 40px;
+    }
+
+    p.texto{
+        font-size: 20px;
+    }
+
+    img#photo{
+        width: 140px;
+        height: 122px;
+        padding: 23px 36px 23px 36px ;
+    }
+    
+    img#photo-2{
+        width: 180px;
+        height: 100px;
+        padding: 38px 16px 38px 16px ;
+    }
+    
+    img#photo-3{
+        width: 210px;
+        height: 100px;
+        padding: 35px 0px 35px 0px ;
+    }
+}
+
+@media screen and (max-width:930px){
+    div.box{
+        padding: 50px 50px 50px 50px;
+    }
+
+    div#box-1{
+        padding: 50px 50px 50px 50px;
+    }
+
+    img#photo{
+        width: 100px;
+        height: 82px;
+        padding: 23px 36px 23px 36px ;
+    }
+    
+    img#photo-2{
+        width: 123px;
+        height: 72px;
+        padding: 30px 25px 30px 25px ;
+    }
+    
+    img#photo-3{
+        width: 140px;
+        height: 75px;
+        padding: 33px 17px 33px 17px ;
+    }
+
+    p.texto{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    p.texto{
+        font-size: clamp(1em + 1vw);
+    }
+}
+
+@media screen and (max-width:750px){
+    img#photo{
+        width: 80px;
+        height: 62px;
+        padding: 13px 15px 13px 15px ;
+    }
+    
+    img#photo-2{
+        width: 95px;
+        height: 52px;
+        padding: 20px 8px 20px 8px ;
+    }
+    
+    img#photo-3{
+        width: 110px;
+        height: 60px;
+        padding: 20px 0px 20px 0px ;
+    }
+
+    .block p.texto{
+        bottom: 35%;
+    }
+}
+
+@media screen and (max-width:602px){
+    div.txt-topo4 h1{
+        font-size: 45px;
+    }
+
+    div#txt-topo3 h1{
+        font-size: 48px;
+    }
+
+    div#txt-topo2 h1{
+        font-size: 45px;
+    }
+
+    div.flex-2 h1{
+        font-size: 15px;
+    }
+
+    button#botão{
+        font-size: 20px;
+        padding: 20px 50px 20px 50px;
+    }
+}
+
+@media screen and(max-width:455px){
+
+    div#imagem-anima img{
+        width: 50px;
+        height: 50px;
+    }
+
+    img#photo{
+        width: 80px;
+        height: 62px;
+        padding: 0px 0px 0px 0px;
+    }
+    
+    img#photo-2{
+        width: 95px;
+        height: 52px;
+        padding: 20px 8px 20px 8px ;
+    }
+    
+    img#photo-3{
+        width: 180px;
+        height: 60px;
+        padding: 10px 0px 10px 0px ;
+    }
+
+    p.texto{
+        font-size: 50px
+    }
+
+    .flex-2{
+        padding: 0%;
+    }
+
+}
+
+@keyframes showSidebar {
+    from {margin-left: -100vw;}
+    top {margin-left: -8.5vw}
+}
+
+@keyframes float{
+    0%{
+        top: 0;
+    }
+
+    100%{
+        top: 30px;
+    }
+}
+
+/*testando java*/
+
